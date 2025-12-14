@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\OneDrive\\Desktop\\Repos\\APIs-and-JSON-Exercise\\APIsAndJSON\\APIsAndJSON.csproj": {}
+    "C:\\Users\\PC\\OneDrive\\Desktop\\Repos\\APIs-and-JSON-Exercise\\APIsAndJSON\\KanyeAndRon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\OneDrive\\Desktop\\Repos\\APIs-and-JSON-Exercise\\APIsAndJSON\\APIsAndJSON.csproj": {
+    "C:\\Users\\PC\\OneDrive\\Desktop\\Repos\\APIs-and-JSON-Exercise\\APIsAndJSON\\KanyeAndRon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Desktop\\Repos\\APIs-and-JSON-Exercise\\APIsAndJSON\\APIsAndJSON.csproj",
-        "projectName": "APIsAndJSON",
-        "projectPath": "C:\\Users\\PC\\OneDrive\\Desktop\\Repos\\APIs-and-JSON-Exercise\\APIsAndJSON\\APIsAndJSON.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Desktop\\Repos\\APIs-and-JSON-Exercise\\APIsAndJSON\\KanyeAndRon.csproj",
+        "projectName": "KanyeAndRon",
+        "projectPath": "C:\\Users\\PC\\OneDrive\\Desktop\\Repos\\APIs-and-JSON-Exercise\\APIsAndJSON\\KanyeAndRon.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\PC\\OneDrive\\Desktop\\Repos\\APIs-and-JSON-Exercise\\APIsAndJSON\\obj\\",
         "projectStyle": "PackageReference",
@@ -49,6 +49,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
